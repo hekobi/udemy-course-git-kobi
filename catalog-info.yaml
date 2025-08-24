@@ -3,8 +3,9 @@ kind: Component
 metadata:
   name: kobitest
   annotations:
-    backstage.io/kubernetes-id: kobinginx
-    backstage.io/kubernetes-namespace: default
+    'backstage.io/kubernetes-id': kobinginx
+    'backstage.io/kubernetes-namespace': default
+    'backstage.io/kubernetes-label-selector': 'app=kobinginx'
 spec:
   type: service
   lifecycle: production
