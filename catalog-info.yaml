@@ -4,6 +4,7 @@ metadata:
   name: kobitest
   annotations:
     backstage.io/kubernetes-id: kobinginx
+    backstage.io/kubernetes-namespace: default
 spec:
   type: service
   lifecycle: production
