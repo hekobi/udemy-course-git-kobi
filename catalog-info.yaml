@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nginx-sample
+  name: kobinginx
   annotations:
-    backstage.io/kubernetes-id: nginx-sample
+    backstage.io/kubernetes-id: kobinginx
 spec:
   type: service
   lifecycle: experimental
